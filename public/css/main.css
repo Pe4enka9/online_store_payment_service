@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.btn {
+  width: fit-content;
+  padding: 0.5em 0.8em;
+  color: #fff;
+  background-color: #2F80ED;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn:hover {
+  background-color: #2668c5;
+}
+
+form {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+form .input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+form .input-container label, form .input-container input {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+form .input-container input {
+  padding: 0.3em 0.5em;
+  outline: none;
+  border: 0.2rem solid #ccc;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  transition: border-color 0.5s ease;
+}
+form .input-container input:focus {
+  border-color: #2F80ED;
+}
+
+h1.error {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font: 10px "Roboto", "sans-serif";
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.container {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+a {
+  color: #2F80ED;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.error {
+  color: #E74C3C;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.success {
+  color: #6FCF97;
+}
+
+/*# sourceMappingURL=main.css.map */
